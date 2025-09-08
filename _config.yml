@@ -1,32 +1,16 @@
 # Book settings
-# Learn more at https://jupyterbook.org/customize/config.html
-
 title: Deep Learning Portfolio
-subtitle: A collection of deep learning projects and experiments
-description: This book showcases various deep learning projects, experiments, and tutorials.
 author: Nicole S. Menorias
-logo: images/profile.png
+logo: logo.png
 
-# Notebook execution settings
 execute:
-  execute_notebooks: auto   # auto-run notebooks if outputs are missing/stale
+  execute_notebooks: auto
 
-# PDF/LaTeX build settings
-latex:
-  latex_documents:
-    targetname: book.tex
-
-# References
-bibtex_bibfiles:
-  - references.bib
-
-# GitHub repository info
 repository:
   url: https://github.com/NicoleMenorias/deeplearning-portfolio
-  path_to_book: ""
-  branch: gh-pages
+  branch: main
+  path_to_book: .   # book is at repo root
 
-# Add GitHub buttons
 html:
   use_repository_button: true
   use_issues_button: true

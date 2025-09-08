@@ -1,6 +1,7 @@
-# Welcome
+# Welcome to My Deep Learning Portfolio
 
-Hi, I’m Nicole 👋
+This portfolio showcases various deep learning projects, experiments, and tutorials.
 
-This portfolio showcases my deep learning projects, experiments, and tutorials.  
-Explore the sections to see my work in action 🚀
+- ✅ Built with [Jupyter Book](https://jupyterbook.org)
+- 🚀 Deployed automatically with GitHub Actions
+- 📊 Contains reproducible notebooks and experiments
