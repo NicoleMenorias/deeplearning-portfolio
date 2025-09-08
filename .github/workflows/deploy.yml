@@ -3,8 +3,8 @@ name: Deploy Jupyter Book
 on:
   push:
     branches:
-      - main   # build when you push to main
-  workflow_dispatch:  # allows manual trigger in Actions tab
+      - main
+  workflow_dispatch:
 
 jobs:
   build-deploy:
@@ -28,5 +28,7 @@ jobs:
         run: jupyter-book build .
 
       - name: Deploy to GitHub Pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           ghp-import -n -p -f _build/html
