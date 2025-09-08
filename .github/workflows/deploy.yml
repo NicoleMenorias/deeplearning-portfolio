@@ -3,7 +3,7 @@ name: deploy-book
 on:
   push:
     branches:
-      - main   # build whenever you push to main branch
+      - main   # Run workflow on pushes to main
 
 jobs:
   build:
