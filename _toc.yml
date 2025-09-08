@@ -1,3 +1,4 @@
 format: jb-book
 root: intro
-chapters: []
+chapters:
+  - file: notebooks/example-notebook

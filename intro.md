@@ -1,7 +1,11 @@
 # Welcome to My Deep Learning Portfolio
 
-This portfolio showcases various deep learning projects, experiments, and tutorials.
+This portfolio showcases my deep learning projects, experiments, and tutorials.
 
-- ✅ Built with [Jupyter Book](https://jupyterbook.org)
-- 🚀 Deployed automatically with GitHub Actions
-- 📊 Contains reproducible notebooks and experiments
+## Contents
+- Example notebooks and experiments
+- Model evaluations
+- Data analysis projects
+- Visualizations
+
+✨ Built with [Jupyter Book](https://jupyterbook.org) and deployed using GitHub Pages 🚀

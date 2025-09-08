@@ -1,16 +1,19 @@
 # Book settings
 title: Deep Learning Portfolio
 author: Nicole S. Menorias
-logo: logo.png
+logo: logo.png   # optional, remove this line if you don’t have a logo
 
+# Execution settings
 execute:
-  execute_notebooks: auto
+  execute_notebooks: auto   # run only if needed (faster builds)
 
+# Repository settings (links to GitHub)
 repository:
   url: https://github.com/NicoleMenorias/deeplearning-portfolio
   branch: main
-  path_to_book: .   # book is at repo root
+  path_to_book: .
 
+# HTML settings
 html:
   use_repository_button: true
   use_issues_button: true
